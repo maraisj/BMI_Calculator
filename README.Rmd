@@ -1,0 +1,23 @@
+---
+title: "BMI Calculator"
+author: "Johannes Marais"
+date: "16 November 2015"
+output: html_document
+---
+##Description
+
+The BMI is used to classify a person as underweight, normal weight, overweight or obese. The BMI value is calculated from the height and weight of a person.
+
+The shiny application can be found [here](https://maraisj.shinyapps.io/BMI_Calculator).
+
+##Instructions
+
+Select imperial or metric system to your preference.
+Move the top slider to your height in meters or the top two sliders to Feet and inches (if you chose the imperial system).
+Move the bottom slider to your weight in kilograms or pounds (if you chose the imperial system).
+Your BMI and BMI classification will be displayed in the results section.
+Reference
+
+##References
+
+[BMI on Wikipedia](https://en.wikipedia.org/wiki/Body_mass_index)
