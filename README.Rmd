@@ -1,9 +1,9 @@
----
-title: "BMI Calculator"
-author: "Johannes Marais"
-date: "16 November 2015"
-output: html_document
----
+#BMI Calculator
+
+####Johannes Marais
+
+####16 November 2015
+
 ##Description
 
 The BMI is used to classify a person as underweight, normal weight, overweight or obese. The BMI value is calculated from the height and weight of a person.
