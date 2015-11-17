@@ -8,7 +8,10 @@ shinyUI(fluidPage(
                          sliderInput("height", label = "Height [m]",min = 1.4, max =2.1, value = 1.7,width = "100%"),
                          sliderInput("weight", label = "Weight [kg]",min = 40, max =160, value = 70,width = "100%"),
                          h4("Results"),
-                         textOutput("text1")),
+
+                         tableOutput('mytable')
+                ),
+                
                 tabPanel("Imperial", 
                          br(),
                          fixedRow(column(
@@ -17,7 +20,7 @@ shinyUI(fluidPage(
                                  sliderInput("heightII", label = "Height [Inches]",min =0, max = 11, value = 0,width = "100%"),width =6)),
                          sliderInput("weightI", label = "Weight [pound]",min = 90, max =350, value = 150,width = "100%"),
                          h4("Results"),
-                         textOutput("text1I"))
+                        tableOutput('mytableI'))
         )
         
         ),
